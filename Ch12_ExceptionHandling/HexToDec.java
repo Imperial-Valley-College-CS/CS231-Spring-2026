@@ -2,7 +2,14 @@ public class HexToDec
 {
    public static void main(String[] args)
    {
-      long dec = hex2Dec("13F");
+      try
+      {
+         long dec = hex2Dec("13F");
+         System.out.println( dec );
+      }catch( NumberFormatException e )
+      {
+         System.out.println("Invalid hex number.");
+      }
    }
    
    public static long hex2Dec( String hex )
