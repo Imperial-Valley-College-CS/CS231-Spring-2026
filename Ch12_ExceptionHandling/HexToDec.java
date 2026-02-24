@@ -4,7 +4,7 @@ public class HexToDec
    {
       try
       {
-         long dec = hex2Dec("13F");
+         long dec = hex2Dec("2x");
          System.out.println( dec );
       }catch( NumberFormatException e )
       {
@@ -20,7 +20,7 @@ public class HexToDec
       
       while( i >= 0 )
       {
-         char digit = hex.charAt(i);
+         char digit = hex.toUpperCase().charAt(i);
          int coeff;
          if( digit >= '0' && digit <= '9' )
             coeff = digit - 48;
