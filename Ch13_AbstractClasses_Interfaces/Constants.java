@@ -21,7 +21,7 @@ public class Constants
    public static int ALIEN_COLS = 12;
    public static int ALIEN_WIDTH = SCALE*ALIEN_ROWS;
    public static int ALIEN_HEIGHT = SCALE*ALIEN_COLS;
-   public static int ALIEN_SPEED = 1;
+   public static int ALIEN_SPEED = 1;     //vertical speed (speedY)
    public static int SQUID_SPEED = 2;
    public static int CRAB_SPEED = 5;
    public static int OCTOPUS_SPEED = 20;
