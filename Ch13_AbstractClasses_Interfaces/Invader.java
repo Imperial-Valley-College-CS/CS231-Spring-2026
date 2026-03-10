@@ -5,12 +5,12 @@ import java.io.FileNotFoundException;
 
 public abstract class Invader
 {
-   private int health, speedX, speedY;
-   private Color color;
-   private Position position;
-   private boolean isAlive, body[][];
-   private String matDir = "InvaderMatrices/";         
-   private String filename;      //SquidMatrix.txt, CrabMatrix.txt, HurtCrabMatrix.txt
+   protected int health, speedX, speedY;
+   protected Color color;
+   protected Position position;
+   protected boolean isAlive, body[][];
+   protected String matDir = "InvaderMatrices/";         
+   protected String filename;      //SquidMatrix.txt, CrabMatrix.txt, HurtCrabMatrix.txt
    
    public Invader( int x, int y )
    {
@@ -24,6 +24,15 @@ public abstract class Invader
    }
    
    public abstract void move();     //abstract method - to be overridden by subclasses
+   
+   public boolean hit()
+   {
+      this.health--;
+      if( this.health <= 0 )
+         this.isAlive = false;
+         
+      return this.isAlive;
+   }
    
    public void setBody()
    {
