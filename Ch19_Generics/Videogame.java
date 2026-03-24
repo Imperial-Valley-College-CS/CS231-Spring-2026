@@ -32,4 +32,10 @@ public class Videogame implements Comparable<Videogame>
    {
       return this.copies - v.getCopies();
    }
+   
+   @Override
+   public String toString()
+   {
+      return this.title + " " + this.copies;
+   }
 }
