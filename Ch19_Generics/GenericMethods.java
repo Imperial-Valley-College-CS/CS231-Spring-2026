@@ -8,8 +8,8 @@ public class GenericMethods
       System.out.println( y );
       String z = max("Minnesota", "Idaho");
       System.out.println( z );
-      Videogame vi = new Videogame("Street Fighter", "8/30/1987", 20000000,"java");
-      Videogame vv = new Videogame("Residental Evil", "1/21/1988", 38000000, "c++");
+      Videogame vi = new Videogame("Street Fighter", "8/30/1987", 38000000,"java");
+      Videogame vv = new Videogame("Residental Evil 2", "1/21/1988", 39000000, "c++");
       Videogame vu = max(vi, vv);
       System.out.println( vu );
    }

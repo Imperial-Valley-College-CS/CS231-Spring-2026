@@ -26,11 +26,18 @@ public class Videogame implements Comparable<Videogame>
    }
    
    public int getCopies(){ return this.copies; }   
+   public String getTitle(){ return this.title; }
    
    @Override
    public int compareTo( Videogame v )
    {
-      return this.copies - v.getCopies();
+      int x = this.copies - v.getCopies();
+      if( x != 0 )
+         return x;
+      else
+      {
+         return this.title.compareTo( v.getTitle() );
+      }
    }
    
    @Override
