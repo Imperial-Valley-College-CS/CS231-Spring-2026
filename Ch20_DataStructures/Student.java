@@ -16,4 +16,10 @@ public class Student implements Comparable<Student>
    {
       return this.age - s.getAge();
    }
+   
+   @Override
+   public String toString()
+   {
+      return "Name: " + this.name + ", Age: " + this.age;
+   }
 }
