@@ -1,0 +1,19 @@
+Abreviation,Major,School,Department
+AE,Aerospace Engineering,SDSU,Aerospace Engineering
+ME,Mechanical Engineering,SDSU,Mechanical Engineering
+CIVE,Civil Engineering,SDSU,Civil Engineering
+EE,Electrical Engineering,SDSU,Electrical Engineering
+COMPE,Computer Engineering,SDSU,Computer Engineering
+COMPSCI,Computer Science,SDSU,Computer Science
+CONE,Construction Engineering,SDSU,Construction Engineering
+ENV,Environmental Engineering,SDSU,Environmental Engineering
+AE,Aerospace Engineering,UCSD,Mechanical and Aerospace Engineering
+ME,Mechanical Engineering,UCSD,Mechanical and Aerospace Engineering
+STRUCT,Structural Engineering,UCSD,Structural Engineering
+EE,Electrical Engineering,UCSD,Electrical and Computer Engineering
+COMPE(ECE),Computer Engineering,UCSD,Electrical and Computer Engineering
+COMPE(CSE),Computer Engineering,UCSD,Computer Science and Engineering
+COMPSCI,Computer Science,UCSD,Computer Science and Engineering
+CONE,Construction Engineering,UCSD,Construction Engineering
+ENV,Environmental Engineering,UCSD,Mechanical and Aerospace Engineering
+BENG,Bioengineering,UCSD,Bioengineering

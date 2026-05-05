@@ -1,0 +1,60 @@
+****************************************
+SDSU  :: AE - Aerospace Engineering
+	SDSU  :BIOL 100   -- IVC:BIOL 100        --   true
+	SDSU  :CHEM 200   -- IVC:CHEM 200        --   true
+	SDSU  :MATH 150   -- IVC:MATH 192        --   true
+	SDSU  :MATH 151   -- IVC:MATH 194        --   true
+	SDSU  :MATH 252   -- IVC:MATH 210        --   true
+	SDSU  :PHYS 195   -- IVC:PHYS 200        --   true
+	SDSU  :PHYS 196   -- IVC:PHYS 202        --   true
+	SDSU  :AE 260     -- IVC:ENGR 220        --  false
+	SDSU  :AE 200     -- IVC:ENGR 210        --  false
+	SDSU  :AE 220     -- IVC:ENGR 212        --   true
+	SDSU  :EE 204     -- IVC:ENGR 240        --   true
+	SDSU  :ME 190     -- IVC:ENGR 150        --  false
+****************************************
+UCSD  :: ME - Mechanical Engineering
+	UCSD  :CHEM 6A    -- IVC:CHEM 200        --   true
+	UCSD  :MATH 18    -- IVC:MATH 230        --   true
+	UCSD  :MATH 20A   -- IVC:MATH 192        --   true
+	UCSD  :MATH 20B   -- IVC:MATH 194        --   true
+	UCSD  :MATH 20C   -- IVC:MATH 210        --   true
+	UCSD  :MATH 20D   -- IVC:MATH 220        --   true
+	UCSD  :PHYS 2A    -- IVC:PHYS 200        --   true
+	UCSD  :PHYS 2B    -- IVC:PHYS 202        --   true
+	UCSD  :PHYS 2C    -- IVC:PHYS 204        --   true
+	UCSD  :MAE 8      -- IVC:ENGR 220        --  false
+	UCSD  :MAE 30A    -- IVC:ENGR 210        --  false
+	UCSD  :MAE 30B    -- IVC:ENGR 212        --  false
+	UCSD  :MAE 3      -- IVC:ENGR 150        --  false
+	UCSD  :MAE 40     -- IVC:ENGR 240        --  false
+****************************************
+SDSU  :: ME - Mechanical Engineering
+	SDSU  :BIOL 100   -- IVC:BIOL 100        --   true
+	SDSU  :CHEM 200   -- IVC:CHEM 200        --   true
+	SDSU  :MATH 150   -- IVC:MATH 192        --   true
+	SDSU  :MATH 151   -- IVC:MATH 194        --   true
+	SDSU  :MATH 252   -- IVC:MATH 210        --   true
+	SDSU  :PHYS 195   -- IVC:PHYS 200        --   true
+	SDSU  :PHYS 196   -- IVC:PHYS 202        --   true
+	SDSU  :AE 260     -- IVC:ENGR 220        --  false
+	SDSU  :AE 200     -- IVC:ENGR 210        --  false
+	SDSU  :AE 220     -- IVC:ENGR 212        --   true
+	SDSU  :ME 190     -- IVC:ENGR 150        --  false
+	SDSU  :ME 202     -- IVC:ENGR 220        --  false
+	SDSU  :ME 230     -- IVC:ENGR 240        --  false
+****************************************
+UCSD  :: AE - Aerospace Engineering
+	UCSD  :CHEM 6A    -- IVC:CHEM 200        --   true
+	UCSD  :MATH 18    -- IVC:MATH 230        --   true
+	UCSD  :MATH 20A   -- IVC:MATH 192        --   true
+	UCSD  :MATH 20B   -- IVC:MATH 194        --   true
+	UCSD  :MATH 20C   -- IVC:MATH 210        --   true
+	UCSD  :MATH 20D   -- IVC:MATH 220        --   true
+	UCSD  :PHYS 2A    -- IVC:PHYS 200        --   true
+	UCSD  :PHYS 2B    -- IVC:PHYS 202        --   true
+	UCSD  :PHYS 2C    -- IVC:PHYS 204        --   true
+	UCSD  :MAE 8      -- IVC:ENGR 220        --  false
+	UCSD  :MAE 30A    -- IVC:ENGR 210        --  false
+	UCSD  :MAE 30B    -- IVC:ENGR 212        --  false
+
