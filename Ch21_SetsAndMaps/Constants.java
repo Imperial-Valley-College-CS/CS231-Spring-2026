@@ -20,7 +20,7 @@ public class Constants
    public static String outputFileCourses = dir+"/DataFiles/Courses.txt";
    public static File fMajors = new File(fileMajors);
    public static File fCourses = new File(fileCourses);
-   public static HashMap<String, Major> majors = new HashMap<>(); 
+   public static TreeMap<String, Major> majors = new TreeMap<>(); 
    public static ArrayList<Course> courses = new ArrayList<>();
    public static ArrayList<String> schools = new ArrayList<>(Arrays.asList("IVC", "SDSU", "UCSD"));
 }

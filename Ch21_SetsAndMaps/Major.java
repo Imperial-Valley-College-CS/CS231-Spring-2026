@@ -7,7 +7,7 @@ public class Major
    private ArrayList<Course> courses;
    
    //constructor
-   public Major(String a, String m, String d, String s)
+   public Major(String a, String m, String s, String d )
    {
       this.abv = a; this.major = m; this.dept = d;
       this.school = s;
