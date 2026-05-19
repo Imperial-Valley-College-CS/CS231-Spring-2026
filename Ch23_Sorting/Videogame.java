@@ -32,4 +32,10 @@ public class Videogame implements Comparable<Videogame>
    {
       return this.date.compareTo( v.getDate() );
    }
+   
+   @Override
+   public String toString()
+   {
+      return this.title;
+   }
 }
