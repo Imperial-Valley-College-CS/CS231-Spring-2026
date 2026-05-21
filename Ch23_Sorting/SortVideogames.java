@@ -7,7 +7,7 @@ public class SortVideogames
       Videogame v = 
          new Videogame("Minecraft", "11/18/2011", 300000000, "Java");
       Videogame vv = 
-         new Videogame("Resident Evil 2", "9/30/1998", 4960000, "C++");      
+         new Videogame("Minecraft", "9/30/1998", 4960000, "C++");      
       Videogame vi = 
          new Videogame("Super Smash Bros", "1/21/1999", 5550000, "C");
          

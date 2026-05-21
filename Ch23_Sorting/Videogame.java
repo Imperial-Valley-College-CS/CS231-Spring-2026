@@ -26,16 +26,20 @@ public class Videogame implements Comparable<Videogame>
    }
    
    public GregorianCalendar getDate(){ return this.date; }
+   public String getTitle(){ return this.title; }
    
    @Override
    public int compareTo(Videogame v)
    {
-      return this.date.compareTo( v.getDate() );
+      if( this.title.compareTo(v.getTitle()) != 0 )
+         return this.title.compareTo( v.getTitle() );
+      else
+         return this.date.compareTo( v.getDate() );
    }
    
    @Override
    public String toString()
    {
-      return this.title;
+      return this.title + ", " + this.sDate;
    }
 }
