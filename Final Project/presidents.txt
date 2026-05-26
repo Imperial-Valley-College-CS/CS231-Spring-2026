@@ -1,0 +1,48 @@
+Here’s a comma-separated list of all U.S. presidents with the fields you requested (Name, Party, Date of Birth, Presidential Number, Term Start, Term End):
+
+George Washington, None, February 22 1732, 1, April 30 1789, March 4 1797
+John Adams, Federalist, October 30 1735, 2, March 4 1797, March 4 1801
+Thomas Jefferson, Democratic-Republican, April 13 1743, 3, March 4 1801, March 4 1809
+James Madison, Democratic-Republican, March 16 1751, 4, March 4 1809, March 4 1817
+James Monroe, Democratic-Republican, April 28 1758, 5, March 4 1817, March 4 1825
+John Quincy Adams, Democratic-Republican, July 11 1767, 6, March 4 1825, March 4 1829
+Andrew Jackson, Democratic, March 15 1767, 7, March 4 1829, March 4 1837
+Martin Van Buren, Democratic, December 5 1782, 8, March 4 1837, March 4 1841
+William Henry Harrison, Whig, February 9 1773, 9, March 4 1841, April 4 1841
+John Tyler, Whig, March 29 1790, 10, April 4 1841, March 4 1845
+James K. Polk, Democratic, November 2 1795, 11, March 4 1845, March 4 1849
+Zachary Taylor, Whig, November 24 1784, 12, March 4 1849, July 9 1850
+Millard Fillmore, Whig, January 7 1800, 13, July 9 1850, March 4 1853
+Franklin Pierce, Democratic, November 23 1804, 14, March 4 1853, March 4 1857
+James Buchanan, Democratic, April 23 1791, 15, March 4 1857, March 4 1861
+Abraham Lincoln, Republican, February 12 1809, 16, March 4 1861, April 15 1865
+Andrew Johnson, Democratic, December 29 1808, 17, April 15 1865, March 4 1869
+Ulysses S. Grant, Republican, April 27 1822, 18, March 4 1869, March 4 1877
+Rutherford B. Hayes, Republican, October 4 1822, 19, March 4 1877, March 4 1881
+James A. Garfield, Republican, November 19 1831, 20, March 4 1881, September 19 1881
+Chester A. Arthur, Republican, October 5 1829, 21, September 19 1881, March 4 1885
+Grover Cleveland, Democratic, March 18 1837, 22, March 4 1885, March 4 1889
+Benjamin Harrison, Republican, August 20 1833, 23, March 4 1889, March 4 1893
+Grover Cleveland, Democratic, March 18 1837, 24, March 4 1893, March 4 1897
+William McKinley, Republican, January 29 1843, 25, March 4 1897, September 14 1901
+Theodore Roosevelt, Republican, October 27 1858, 26, September 14 1901, March 4 1909
+William Howard Taft, Republican, September 15 1857, 27, March 4 1909, March 4 1913
+Woodrow Wilson, Democratic, December 28 1856, 28, March 4 1913, March 4 1921
+Warren G. Harding, Republican, November 2 1865, 29, March 4 1921, August 2 1923
+Calvin Coolidge, Republican, July 4 1872, 30, August 2 1923, March 4 1929
+Herbert Hoover, Republican, August 10 1874, 31, March 4 1929, March 4 1933
+Franklin D. Roosevelt, Democratic, January 30 1882, 32, March 4 1933, April 12 1945
+Harry S. Truman, Democratic, May 8 1884, 33, April 12 1945, January 20 1953
+Dwight D. Eisenhower, Republican, October 14 1890, 34, January 20 1953, January 20 1961
+John F. Kennedy, Democratic, May 29 1917, 35, January 20 1961, November 22 1963
+Lyndon B. Johnson, Democratic, August 27 1908, 36, November 22 1963, January 20 1969
+Richard Nixon, Republican, January 9 1913, 37, January 20 1969, August 9 1974
+Gerald Ford, Republican, July 14 1913, 38, August 9 1974, January 20 1977
+Jimmy Carter, Democratic, October 1 1924, 39, January 20 1977, January 20 1981
+Ronald Reagan, Republican, February 6 1911, 40, January 20 1981, January 20 1989
+George H. W. Bush, Republican, June 12 1924, 41, January 20 1989, January 20 1993
+Bill Clinton, Democratic, August 19 1946, 42, January 20 1993, January 20 2001
+George W. Bush, Republican, July 6 1946, 43, January 20 2001, January 20 2009
+Barack Obama, Democratic, August 4 1961, 44, January 20 2009, January 20 2017
+Donald Trump, Republican, June 14 1946, 45, January 20 2017, January 20 2021
+Joe Biden, Democratic, November 20 1942, 46, January 20 2021, January 20 2025
