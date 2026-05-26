@@ -5,19 +5,35 @@ import javafx.scene.layout.BorderPane;
 import java.util.*;
 import java.io.*;
 import java.io.FileNotFoundException;
+import javafx.scene.control.*;
 
 public class App extends Application
 {
+   TextField textField = new TextField();
+   ScrollPane scroll = new ScrollPane(textField);
    BorderPane pane = new BorderPane();
-   Scene scene = new Scene(pane);
+   Scene scene = new Scene(pane, 400, 600);
    ArrayList<President> presidents = new ArrayList<>();
    String filename = "presidents.txt";
    
    @Override
    public void start(Stage stage)
    {
+      setup();
       stage.setScene(scene);
       stage.show();
+   }
+   
+   public void setup()
+   {
+      readData();
+      scroll.setFitToHeight(true);
+      for( President p : presidents )
+      {
+         textField.appendText( p.getName() );
+         textField.appendText( "\n" );
+      }
+      pane.setCenter( scroll );
    }
    
    public boolean readData()
@@ -26,6 +42,11 @@ public class App extends Application
       {
          File f = new File(filename);
          Scanner scan = new Scanner(f);
+         while( scan.hasNextLine() )
+         {
+            String[] tokens = scan.nextLine().split(",");
+            presidents.add( new President(tokens[0]) );
+         }
          return true;
       }catch( FileNotFoundException e )
       {
