@@ -9,10 +9,10 @@ import javafx.scene.control.*;
 
 public class App extends Application
 {
-   TextField textField = new TextField();
-   ScrollPane scroll = new ScrollPane(textField);
+   TextArea textArea = new TextArea();
+   ScrollPane scroll = new ScrollPane(textArea);
    BorderPane pane = new BorderPane();
-   Scene scene = new Scene(pane, 400, 600);
+   Scene scene = new Scene(pane, 600, 400);
    ArrayList<President> presidents = new ArrayList<>();
    String filename = "presidents.txt";
    
@@ -30,8 +30,8 @@ public class App extends Application
       scroll.setFitToHeight(true);
       for( President p : presidents )
       {
-         textField.appendText( p.getName() );
-         textField.appendText( "\n" );
+         textArea.appendText( p.getName() );
+         textArea.appendText( "\n" );
       }
       pane.setCenter( scroll );
    }
