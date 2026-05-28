@@ -77,6 +77,23 @@ public class App extends Application
       }
    }
    
+   public void sortDisplay()
+   {
+      //create a new TreeSet using the appropriate Comparator
+      sortedPresidents = new TreeSet<>(compareElements);
+      
+      //add all presidents in ArrayList to TreeSet
+      for( President p : presidents )
+         sortedPresidents.add( p );
+        
+      ///remove all text from text area 
+      textArea.clear();
+      
+      //remove presidents from TreeSet and add to TextArea
+      while( !sortedPresidents.isEmpty() )
+         textArea.appendText( sortedPresidents.pollFirst().getName() + "\n");
+   }
+   
    class SortButtonHandler implements EventHandler<ActionEvent>
    {
       @Override
@@ -84,6 +101,8 @@ public class App extends Application
       {
          Button b = (Button)e.getSource();
          String text = b.getText();
+         
+         //Select appropriate comparator
          switch( text )
          {
             case "Sort Name Ascending":
@@ -94,19 +113,8 @@ public class App extends Application
                break;               
          }
          
-         //create a new TreeSet using the appropriate Comparator
-         sortedPresidents = new TreeSet<>(compareElements);
-         
-         //add all presidents in ArrayList to TreeSet
-         for( President p : presidents )
-            sortedPresidents.add( p );
-           
-         ///remove all text from text area 
-         textArea.clear();
-         
-         //remove presidents from TreeSet and add to TextArea
-         while( !sortedPresidents.isEmpty() )
-            textArea.appendText( sortedPresidents.pollFirst().getName() + "\n");
+         //Sort and display presidents
+         sortDisplay();
       }
    }//end SortButtonHandler
    
